@@ -1,0 +1,18 @@
+footer {
+    margin: auto auto 0 auto;
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #CCCCCC;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+footer {
+    font-size: 20px;
+    font-weight: bold;
+}
+}
